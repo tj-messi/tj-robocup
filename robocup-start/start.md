@@ -6,4 +6,12 @@ see the instruction in
 
     https://docs.b-human.de/coderelease2024/getting-started/initial-setup/
 
-## 
+## environment
+
+    sudo apt upgrade
+
+    sudo apt update
+
+    sudo apt install ccache clang cmake exfatprogs git graphviz libasound2-dev libbox2d-dev libgl-dev libstdc++-12-dev llvm mold net-tools ninja-build pigz qt6-base-dev qt6-svg-dev rsync xxd
+
+    
