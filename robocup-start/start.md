@@ -20,8 +20,24 @@ the limit of the decoding refer to csdn
 
     Make/Linux/compile
 
-##SimRobot
+## SimRobot
 
 path
 
     /tj-robocup/tj-robocup/BHumanCodeRelease/Build/Linux/SimRobot/Develop
+
+## gamecontroller3
+
+download the release one
+
+    https://github.com/RoboCup-SPL/GameController3/releases/tag/v3.0.0
+
+get into the direct
+
+    ./game controller
+
+encounter the problem :
+
+    /home/tj-messi/tj-robocup/tj-robocup/game_controller-3.0.0-x86_64-unknown-linux-gnu/target/release/game_controller_app: error while loading shared libraries: libwebkit2gtk-4.0.so.37: cannot open shared object file: No such file or directory
+
+follow the csdn
