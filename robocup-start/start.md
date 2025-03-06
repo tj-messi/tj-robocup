@@ -20,4 +20,8 @@ the limit of the decoding refer to csdn
 
     Make/Linux/compile
 
-##
+##SimRobot
+
+path
+
+    /tj-robocup/tj-robocup/BHumanCodeRelease/Build/Linux/SimRobot/Develop
