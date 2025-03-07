@@ -41,3 +41,19 @@ encounter the problem :
     /home/tj-messi/tj-robocup/tj-robocup/game_controller-3.0.0-x86_64-unknown-linux-gnu/target/release/game_controller_app: error while loading shared libraries: libwebkit2gtk-4.0.so.37: cannot open shared object file: No such file or directory
 
 follow the csdn
+
+## TeamCommunicationMonitor
+
+    In addition, the GameController offers an interface for monitor applications (such as the TeamCommunicationMonitor or the EventRecorder):
+    - It receives monitor requests (UDP unicast on port 3636, 4 bytes header magic `RGTr` + 1 byte version number `0`).
+        It refuses to accept monitor requests from hosts that have previously sent status messages, as those are presumed to be robot players which should not get true data.
+        Similarly, if a host that had previously sent a monitor request sends a status message, it will not receive monitor data anymore.
+    - Each registered monitor host will get:
+        - control messages with the true game state at a rate of 2 hertz (UDP unicast on port 3838, with the same format as regular control messages, but with the header magic `RGTD`).
+        - forwarded status messages (UDP unicast on port 3940, prefixed by the IPv4 address of the original sender).
+            The forwarded payload has not been validated.
+
+
+first get the java environment
+
+follow the csdn instruction
