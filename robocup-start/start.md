@@ -57,3 +57,15 @@ follow the csdn
 first get the java environment
 
 follow the csdn instruction
+
+## Nao robot Connection
+
+set mannual robotic ipv4
+
+    192.168.20.10
+
+    255.255.0.0
+
+connect the nao robot
+
+    ssh nao@192.168.20.44
