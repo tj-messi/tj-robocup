@@ -69,3 +69,5 @@ set mannual robotic ipv4
 connect the nao robot
 
     ssh nao@192.168.20.44
+
+    passwd : nao
